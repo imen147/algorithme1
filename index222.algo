@@ -1,0 +1,114 @@
+ALGORITHM The length of the sentence
+VAR
+string = "the number of characters";  
+count = 1;  
+i:=0; 
+    
+BEGIN
+    FOR i FROM 0 TO length (string)  DO  
+        count = count + 1;  
+    END_FOR
+END
+ALGORITHM The number of words
+VAR
+    string = "the number of characters";  
+count = 1;  
+i:=0; 
+BEGIN
+string:="assuming that the words are separated by a single space";
+i:=0;
+ words_count:=1;
+FOR i<=sentence_length FROM 0 TO  sentence_length DO
+         i=i+1
+ words_count=words_count+1;
+ END_FOR
+   
+END
+ALGORITHM The number of vowels in the sentence
+VAR
+string := "assuming that the words are separated by a single space ";
+i:=0;
+words_count:=1;
+    
+BEGIN
+    
+END
+
+
+
+
+
+
+
+
+
+
+
+ The number of vowels in the sentence
+ VAR
+ string := "assuming that the words are separated by a single space ";
+i:=0;
+words_count:=1;
+sum words_count:=words_count+1;
+BEGIN
+SWITCH (variable) DO
+    case i:="a" :words_count:=1;
+    break;
+    case  i:="e":words_count:=1;
+    break;
+    case i:="i":words_count:=1;
+    break;
+    case i:="o":words_count:=1;
+    break;
+    case i:="u":words_count:=1;
+    break;
+    words_count:=words_count+1;
+    sum words_count:=words_count+1;
+END_SWITCH
+write("words_count");
+write("sum words_count");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
